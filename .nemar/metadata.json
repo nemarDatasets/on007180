@@ -1,0 +1,23 @@
+{
+  "version": "2.0",
+  "dataset_id": "on007180",
+  "source": "openneuro",
+  "source_id": "ds007180",
+  "title": "Exo-EEG Experiment",
+  "authors": {
+    "Águeda Fuentes-Guerra": {},
+    "Elisa Martín Arévalo": {},
+    "Freek van Ede": {},
+    "Carlos González-García": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds007180.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded"
+}
