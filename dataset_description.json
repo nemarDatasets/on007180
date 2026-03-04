@@ -15,5 +15,6 @@
   "EthicsApprovals": [
     "The study was conducted in accordance with the ethical guidelines of the Department of Experimental Psychology at the University of Granada and adhered to the principles of the Declaration of Helsinki (2013 revision, Brazil). The protocol was approved by the University of Granada Ethics Committee (Ref: 1816/CEIH/2020)."
   ],
-  "DatasetDOI": "10.82901/nemar.on007180"
+  "DatasetDOI": "10.82901/nemar.on007180",
+  "Version": "1.0.0"
 }
