@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Exo-EEG Experiment",
+  "description": "EEG recordings from an experiment (Exo-EEG) on an exogenous task, collected at the University of Granada. The dataset is organized in BIDS format with participant information and task metadata provided in the accompanying files.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,6 +11,22 @@
     "Freek van Ede": {},
     "Carlos González-García": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "exogenous attention"
+    },
+    {
+      "term": "working memory"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007180.v1.0.0",
@@ -22,32 +39,32 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007180",
+      "identifier": "https://nemar.org/dataset/on007180",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.82901/nemar.on007180",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
     }
   ],
   "funding_references": [
     {
-      "funder_name": "Spanish Ministry of Science and Innovation",
+      "funder_name": "Spanish Ministry of Science and Innovation / State Research Agency (MICIU/AEI)",
       "award_number": "PID2020-116342GA-I00"
     },
     {
-      "funder_name": "Spanish Ministry of Science and Innovation",
+      "funder_name": "Spanish Ministry of Science and Innovation / State Research Agency (MICIU/AEI)",
       "award_number": "PID2023-149428NB-I00"
     },
     {
-      "funder_name": "Spanish Ministry of Science and Innovation",
+      "funder_name": "Spanish Ministry of Science and Innovation / State Research Agency (MICIU/AEI)",
       "award_number": "PID2024-157672NB-I00"
     },
     {
-      "funder_name": "Spanish Ministry of Science and Innovation",
-      "award_number": "RYC2021-033536-I"
+      "funder_name": "Spanish Ministry of Science and Innovation / State Research Agency (MICIU/AEI)",
+      "award_number": "RYC2021-033536-I",
+      "award_title": "Ramón y Cajal Grant"
+    },
+    {
+      "funder_name": "Spanish Ministry of Science and Innovation / State Research Agency (MICIU/AEI)",
+      "award_number": "PRE2021-100351"
     },
     {
       "funder_name": "European Research Council",
@@ -55,53 +72,27 @@
       "award_title": "MEMTICIPATION"
     },
     {
-      "funder_name": "Dutch Research Council",
-      "award_number": "14721"
-    },
-    {
-      "funder_name": "Spanish Ministry of Science and Innovation",
-      "award_number": "PRE2021-100351"
-    },
-    {
-      "funder_name": "Spanish Ministry of Science and Innovation",
-      "award_number": "CEX2023-001312-M"
-    },
-    {
-      "funder_name": "University of Granada",
-      "award_number": "UCE-PP2023-11"
+      "funder_name": "Dutch Research Council (NWO)",
+      "award_number": "14721",
+      "award_title": "Vidi Grant"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
-  "description": "This dataset comprises EEG recordings from an exogenous attention task designed to investigate the neural mechanisms of attentional control and memory integration. Participants performed a structured experimental paradigm involving exogenous cueing while continuous EEG signals were recorded. The study examined how external cues modulate neural activity during cognitive tasks, with a focus on the interaction between attention and working memory processes. The dataset is part of a larger research initiative on memory anticipation and cognitive control.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "attention"
-    },
-    {
-      "term": "exogenous cueing"
-    },
-    {
-      "term": "cognitive neuroscience"
-    },
-    {
-      "term": "electroencephalography"
-    },
-    {
-      "term": "working memory"
-    },
-    {
-      "term": "exogenous attention"
-    },
-    {
-      "term": "cueing task"
-    }
+  "sizes": [
+    "14.67 GB (76 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
   ],
   "source_hash": "175b7ebe0d814bfb7e37c648d36427746e54162b11fe3b7577b975243d5a9637"
 }
